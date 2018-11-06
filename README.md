@@ -8,7 +8,7 @@ Official support sites: [Official Github Repo](https://github.com/fstltna/Minete
 These start up the Minetest server at boot time with a "screen" process.
 
 1. Copy **minetest** into **/etc/init.d** - make sure it is executable
-2. Copy **startminetest** into **/usr/local/minetest** - make sure it is executable
+2. Copy **startminetest** into **/root/minetest** - make sure it is executable
 4. Run "**systemctl enable minetest**" (only needed once, will stick)
 5. Run "**systemctl start minetest**" - starts Minetest without restarting the server
 
@@ -18,7 +18,7 @@ To disconnect from the Minetest console just press **CTRL-A CTRL-D**. This will 
 
 I have only tested this on a Ubuntu 16.04 server...
 
-If you want to turn off the server respawning type "**touch /usr/local/minetest/nostart**". To reenable it type "**rm /usr/local/minetest/nostart**".
+If you want to turn off the server respawning type "**touch /root/minetest/nostart**". To reenable it type "**rm /root/minetest/nostart**".
 
 ---
 Note: If you don't already have the "screen" tool installed you will need to install it by "**sudo apt-get install screen**".
