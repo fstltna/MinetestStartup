@@ -27,7 +27,7 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
-my $MINETESTDIR = "/usr/local/minetest";
+my $MINETESTDIR = "/root/minetest";
 
 my $Command = $ARGV[0];
 if ($Command eq "")
