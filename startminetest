@@ -59,6 +59,6 @@ while (-1)
 		}
 	}
 	# Sleep for 5 minutes before checking again
-	sleep(300);
+	sleep(60);
 }
 exit(0);

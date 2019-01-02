@@ -1,4 +1,4 @@
-# Minetest Startup Scripts (2.0.0)
+# Minetest Startup Scripts (2.1.0)
 Startup scripts for the Minetest sandbox software - uses the "screen" command to manage session. This also restarts the Minetest process if it crashes.
 
 Official support sites: [Official Github Repo](https://github.com/fstltna/MinetestStartup) - [Official Forum](https://minecity.online/index.php/forum/startup-scripts)  - [Official Download Area](https://minecity.online/index.php/downloads/category/5-server-tools)
