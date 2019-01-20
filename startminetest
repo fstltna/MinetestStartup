@@ -58,7 +58,7 @@ while (-1)
 			system("$SCREENCMD -fa -S Minetest -d -U -m $MINETESTDIR/bin/minetestserver");
 		}
 	}
-	# Sleep for 5 minutes before checking again
+	# Sleep for 1 minute before checking again
 	sleep(60);
 }
 exit(0);
