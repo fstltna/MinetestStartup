@@ -7,10 +7,9 @@ Official support sites: [Official Github Repo](https://github.com/fstltna/Minete
 ---
 These start up the Minetest server at boot time with a "screen" process.
 
-1. Copy **minetest** into **/etc/init.d** - make sure it is executable
-2. Copy **startminetest** into **/root/minetest** - make sure it is executable
-4. Run "**systemctl enable minetest**" (only needed once, will stick)
-5. Run "**systemctl start minetest**" - starts Minetest without restarting the server
+1. Copy **minetest** into **/home/mtowner/bin** - make sure it is executable
+2. Copy **startminetest** into **/home/mtowner/minetest** - make sure it is executable
+3. Put **@reboot /home/mtowner/bin/teeworld start** into your crontab
 
 When you want to view the Minetest console, just enter "**screen -r**" in your shell.
 
