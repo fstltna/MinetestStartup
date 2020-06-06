@@ -17,7 +17,7 @@ To disconnect from the Minetest console just press **CTRL-A CTRL-D**. This will 
 
 I have only tested this on a Ubuntu 16.04 server...
 
-If you want to turn off the server respawning type "**touch /root/minetest/nostart**". To reenable it type "**rm /root/minetest/nostart**".
+If you want to turn off the server respawning type "**touch /home/mtowner/minetest/nostart**". To reenable it type "**rm /home/mtowner/minetest/nostart**".
 
 ---
 Note: If you don't already have the "screen" tool installed you will need to install it by "**sudo apt-get install screen**".
