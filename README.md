@@ -12,7 +12,11 @@ These start up the Minetest server at boot time with a "screen" process.
 3. Copy **startminetest** into **/home/mtowner/minetest** - make sure it is executable
 4. Put **@reboot /home/mtowner/bin/minetest start** into your crontab
 5. Put **@reboot /home/mtowner/bin/startrelay** into your crontab
-
+6. Run the relay setup:
+	pip install aiohttp
+	cd discord.py-1.3.3
+	python3.6 -m pip install -U .
+	
 When you want to view the Minetest console, just enter "**screen -r**" in your shell.
 
 To disconnect from the Minetest console just press **CTRL-A CTRL-D**. This will leave it running and you can reconnect to it again.
