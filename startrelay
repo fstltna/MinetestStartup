@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /home/mtowner/minetest
+nohup python3.6 server.py &
+exit 0
