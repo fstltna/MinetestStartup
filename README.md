@@ -8,14 +8,17 @@ Official support sites: [Official Github Repo](https://github.com/fstltna/Minete
 These start up the Minetest server at boot time with a "screen" process.
 
 1. Copy **minetest** into **/home/mtowner/bin** - make sure it is executable
-2. Copy **startrelay** into **/home/mtowner/bin** - make sure it is executable
-3. Copy **startminetest** into **/home/mtowner/minetest** - make sure it is executable
-4. Put **@reboot /home/mtowner/bin/minetest start** into your crontab
-5. Put **@reboot /home/mtowner/bin/startrelay** into your crontab
-6. Run the relay setup:
+2. Copy **startminetest** into **/home/mtowner/minetest** - make sure it is executable
+3. Put **@reboot /home/mtowner/bin/minetest start** into your crontab
+4. Put **@reboot /home/mtowner/bin/startrelay** into your crontab
+5. Run the relay setup:
 	pip install aiohttp
-	cd discord.py-1.3.3
-	python3.6 -m pip install -U .
+	cd /home/mtowner
+	unzip MinetestStartup/MyRelay.zip
+	cd /home/mtowner/minetest/mods/discordmt
+	vi relay.conf # Set the discord bot info where needed
+	Run startrelay
+	Restart the minetest server, and enable the discordmt
 	
 When you want to view the Minetest console, just enter "**screen -r**" in your shell.
 
