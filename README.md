@@ -17,6 +17,7 @@ These start up the Minetest server at boot time with a "screen" process.
 	unzip MinetestStartup/MyRelay.zip
 	cd /home/mtowner/minetest/mods/discordmt
 	vi relay.conf # Set the discord bot info where needed
+	Activate the bot with: https://discordapp.com/oauth2/authorize?client_id=CLIENTID&scope=bot
 	Run startrelay
 	Restart the minetest server, and enable the discordmt
 	
